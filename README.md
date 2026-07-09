@@ -6,7 +6,8 @@ class PrioritySelector:
         self.DISTANCE_WEIGHT = 0.3
         self.HP_WEIGHT = 0.3
         # NEW: High weight for preventing rivals from staying in top ranks
-        self.RANK_WEIGHT = 0.4 
+        self.RANK_WEIGHT = 0.4
+        and thre lost
 
     def calculate_threat_score(self, distance: float, hp: float, rank: int) -> float:
         """
